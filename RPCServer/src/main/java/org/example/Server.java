@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Server {
      public static void main(String[] args) throws XmlRpcException, IOException {
          BasicConfigurator.configure();
-         WebServer webServer = new WebServer(8081);
+         WebServer webServer = new WebServer(5004);
 
          XmlRpcServer xmlRpcServer =
                  webServer.getXmlRpcServer();
